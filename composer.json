@@ -1,16 +1,22 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "spatie/sitesearch",
+    "description": "Crawl and index a site",
     "keywords": [
         "spatie",
-        ":package_name"
+        "sitesearch"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/spatie/sitesearch",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Raymond Rutjes",
+            "email": "raymond.rutjes@algolia.com",
+            "homepage": "https://algolia.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -23,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Spatie\\Sitesearch\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Test\\": "tests"
+            "Spatie\\Sitesearch\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -40,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Spatie\\Sitesearch\\SitesearchServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Sitesearch": "Spatie\\Sitesearch\\SitesearchFacade"
             }
         }
     }

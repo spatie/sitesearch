@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace Spatie\Sitesearch;
 
-class SkeletonClass
+class SitesearchClass
 {
     /**
-     * Create a new Skeleton Instance.
+     * Create a new Sitesearch Instance.
      */
     public function __construct()
     {
