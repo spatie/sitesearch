@@ -22,7 +22,10 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "spatie/crawler": "^2.6",
+        "symfony/css-selector": "^3.3",
+        "symfony/dom-crawler": "^3.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
